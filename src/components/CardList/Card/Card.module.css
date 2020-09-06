@@ -1,0 +1,15 @@
+.Card {
+    border: 1px solid #7c007c; /* Рамка */
+    border-radius: 5%;
+    text-align: center;
+    transition: 0.3s; /* Время эффекта */
+    width: 300px;
+    background: linear-gradient(0.10turn, #9763c2, #3cf6b8); /* Фон */
+    margin: 10px;
+    display: inline-block;
+    
+}
+    .Card:hover {
+   
+    transform: scale(1.1); /* Увеличиваем масштаб */
+    }
